@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>demo by hans</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #canvas {
+            display: block;
+            border: 1px solid #aaa;
+        }
+        .main {
+            width: 500px;
+            margin: 0 auto;
+        }
+        .pane {
+            position: absolute;
+            top: 50px;
+            left: 50px;
+            overflow: hidden;
+            width: 150px;
+            background-color: #00000066;
+            border-radius: 5px;
+            color: #fff;
+            font-size: 14px;
+            user-select: none;
+            box-shadow: 2px  2px 5px #333;
+        }
+        .pane .title {
+            padding: 5px;
+            background-color: #00000022;
+            cursor: move;
+        }
+        .pane .ctrl div {
+            padding: 0 15px;
+        }
+        .pane .ctrl div:hover {
+            background-color: #00000022;
+        }
+    </style>
+</head>
+<body id="body">
+    <div class="main">
+        <canvas id="canvas" width="500" height="400"></canvas>
+        模式：<select name="" id="mode">
+            <option value="0">创造</option>
+            <option value="1" selected>游玩</option>
+        </select>
+        <button id="btn">导入配置</button>
+        <div id="msg"></div>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
