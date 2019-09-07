@@ -8,4 +8,5 @@
 - [colorpicker]](https://haima16.github.io/haima16/colorpicker/index.html)
 - [polygon]](https://haima16.github.io/haima16/polygon/index.html)
 - [cascade]](https://haima16.github.io/haima16/cascade/index.html)
+- [breakout]](https://haima16.github.io/haima16/breakout/index.html)
 
